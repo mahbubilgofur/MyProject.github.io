@@ -5,39 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Project1</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js"></script>
 </head>
 <body>
         <main class="kalkulator">
-            <div class="input">
-            <input type="text" id="input" >
+            <div class="input" >
+            <input type="text" id="input" readonly >
             </div>
             <div class="tombol">
-                <button class="AC">AC</button>
-                <button>C</button>
-                <button>*</button>
-                 <!-- batas// -->
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>/</button>
-                 <!-- batas// -->
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>+</button>
-                 <!-- batas// -->
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>-</button>
-                 <!-- batas// -->
-                <button>+-</button>
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
+                <button class="AC" onclick="HapusSemua()">AC</button>
+                <button onclick="HapusSatu()">C</button>
+                <button onclick="TambahInput('*')">*</button>
+                <!-- batas// -->
+                <button onclick="TambahInput('7')">7</button>
+                <button onclick="TambahInput('8')">8</button>
+                <button onclick="TambahInput('9')">9</button>
+                <button onclick="TambahInput('/')">/</button>
+                <!-- batas// -->
+                <button onclick="TambahInput('4')">4</button>
+                <button onclick="TambahInput('5')">5</button>
+                <button onclick="TambahInput('6')">6</button>
+                <button onclick="TambahInput('+')">+</button>
+                <!-- batas// -->
+                <button onclick="TambahInput('1')">1</button>
+                <button onclick="TambahInput('2')">2</button>
+                <button onclick="TambahInput('3')">3</button>
+                <button onclick="TambahInput('-')">-</button>
+                <!-- batas// -->
+                <button onclick="toggleNegatif()">+-</button>
+                <button onclick="TambahInput('0')">0</button>
+                <button onclick="TambahInput('.')">.</button>
+                <button onclick="Hitung()">=</button>
                 <!-- batas// -->
             </div>
         </main>
+        <script src="js/index.js"></script>
 </body>
 </html>
