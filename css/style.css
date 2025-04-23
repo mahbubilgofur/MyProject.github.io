@@ -17,8 +17,8 @@ body {
   box-shadow: 7px 10px 20px rgb(0, 0, 0);
   border-radius: 30px;
   width: 330px;
-  height: 550px;
-  border: 1px solid rgba(255, 255, 255, 0.053);
+  height: 500px;
+  border: 1px solid rgb(0, 0, 0);
   background-color: rgb(34, 34, 34);
   display: flex;
   justify-content: center;
@@ -66,8 +66,9 @@ button {
   width: 55px;
   height: 60px;
   font-size: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
   color: rgb(255, 255, 255);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.529);
+  box-shadow: 0 2px 7px rgb(0, 0, 0);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -93,8 +94,9 @@ button:active {
   width: 126px;
   height: 60px;
   font-size: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
   color: rgb(255, 255, 255);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.529);
+  box-shadow: 0 2px 7px rgb(0, 0, 0);
   border-radius: 10px;
   transition: transform 0.1s ease;
   -webkit-border-radius: 10px;
@@ -117,8 +119,9 @@ button:hover {
   width: 55px;
   height: 60px;
   font-size: 30px;
+  border: 1px solid rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.529);
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -138,7 +141,9 @@ button:hover {
   width: 126px;
   height: 60px;
   font-size: 30px;
+  border: 1px solid rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
   border-radius: 10px;
   transition: transform 0.1s ease;
   -webkit-border-radius: 10px;
