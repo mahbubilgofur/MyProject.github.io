@@ -8,7 +8,7 @@ body {
 
 header {
   z-index: 100;
-  background-color: #263238c3;
+  background-color: #1c23269d;
   width: 100%;
   height: 70px;
   position: fixed;
@@ -120,7 +120,7 @@ nav ul li .home-h:hover {
 
 /* /// */
 main {
-  background-color: #263238;
+  background-color: #1c2326;
   width: 100%;
   min-height: 100vh;
 }
@@ -635,7 +635,7 @@ main {
   margin-bottom: 5px;
 }
 .input label {
-  color: rgb(218, 246, 255);
+  color: rgb(255, 255, 255);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 3px;
 }
